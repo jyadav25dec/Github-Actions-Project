@@ -4,7 +4,7 @@ name: Build and deploy JAR app to Azure Web App - jinijujujai
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
